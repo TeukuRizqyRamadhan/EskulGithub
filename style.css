@@ -1,0 +1,249 @@
+.container{
+    display: block;
+    padding: 30px;
+}
+.logo img{
+    width: 200px;
+    height: 120px;
+    padding-left: 40px;
+    padding-bottom: 30px;
+}
+.logomini img{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+.logose{
+    display: inline-flex;
+}
+.logomini{
+    display: inline;
+    padding-left:44rem;
+}
+.navigation{
+   display: block;
+   
+}
+.navigation li{
+    display: inline;
+    list-style-type: none;
+    padding: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+
+}
+.navigation a{
+    text-decoration: none;
+    color: black;
+}
+
+hr{
+
+    color: rgba(255, 255, 255, 0.877);
+}
+.landingpage{
+    display: block;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+.welcome h2{
+    padding: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+
+.welcome h3{
+  padding: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  text-align: center;
+
+}
+/*.carouseltext{
+    padding: 30px;
+    background-color: #ffffffcc; 
+    border-radius: 10px;
+    align-items: flex-start;
+    text-align: left;
+  }*/
+  .carouseltext{
+    position: absolute;
+    top: 50%; 
+    left: 10%; 
+    transform: translateY(-50%); 
+    background-color: rgba(255, 255, 255, 0.888);
+    padding: 30px; 
+    border-radius: 15px; 
+    max-width: 40%; 
+    text-align: left; 
+}
+
+  
+  .carousel img{
+    border-radius: 30px;
+    max-height: 500px;
+    object-fit: cover;
+    width: 100%;
+
+  }
+
+  .readmore a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+
+  .readmore{
+    border-radius: 8px;
+    background-color: black;
+    border: none;
+    padding: 10px;
+  }
+  .readmore button{
+    border: none;
+  }
+
+  .cardcatalog{
+    padding: 40px;
+  }
+  
+  .carouselitem{
+  padding: 10px;
+  }
+
+  .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Bayangan merata */
+    transition: box-shadow 0.3s ease; /* Efek transisi */
+}
+
+.card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Bayangan saat hover */
+}
+.card-img-top {
+  width: 100%;
+  height: 100%;
+  object-fit:cover;
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+.carousel-inner {
+  padding: 3px;
+}
+.col{
+box-shadow: 30px;
+}
+.tombolwa{
+ 
+  position: fixed;
+  border: none;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  display: inline-flex;
+  background-color: green;
+  bottom: 4rem;
+  right: 2rem;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+
+}
+.wa{
+  position: fixed;
+  border: none;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  display: inline;
+  bottom: 3rem;
+  right: 2rem;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+.wa img{
+  width: 40px;
+  height: 40px;
+
+}
+.wa:hover .bt-wa{
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Bayangan saat hover */
+  display: flex;
+  
+}
+.bt-wa{
+  position: absolute;
+  display: none;
+  width: 120px;
+  height: auto;
+  color: rgb(255, 255, 255);
+  background-color: green;
+  align-items: center;
+  border: none;
+  border-radius: 20px;
+  justify-content: center;
+  bottom: 1rem;
+  right: 3.5rem;
+  padding: 10px;
+  z-index: 9999;
+}
+.bt-wa button{
+  background-color: green;
+  border: none;
+  color: white;
+  z-index: 9999;
+}
+
+.info-credit {
+  padding: 50px 0;
+  background-color: #f7f7f7;
+}
+
+.info-credit h2 {
+  margin-top: 0;
+}
+
+.info-credit p {
+  margin-bottom: 20px;
+}
+
+.info-credit ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.info-credit ul li {
+  margin-bottom: 10px;
+}
+
+.info-credit a {
+  text-decoration: none;
+  color: #337ab7;
+}
+
+.info-credit a:hover {
+  color: #23527c;
+}
+
+.map {
+  padding: 50px 0;
+  background-color:gray;
+}
+
+.map h2 {
+  margin-top: 0;
+}
+
+.map iframe {
+  border: none;
+  width: 100%;
+  height: 450px;
+}
+
+.credit_all{
+padding-right: 30px;
+border-radius: 10px;
+background-color: gray;
+}
